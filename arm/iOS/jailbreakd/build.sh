@@ -1,10 +1,10 @@
 set -e
 
-CODESIGN_IDENTITY="Apple Development: Linus"
+CODESIGN_IDENTITY="3SRQJ434Z7"
 
-swiftcArgs=(-sdk "`xcrun --sdk iphoneos --show-sdk-path`" -target arm64-apple-ios14.0 -O -framework IOKit)
+swiftcArgs=(-sdk "`xcrun --sdk iphoneos --show-sdk-path`" -target arm64-apple-ios14.3 -O -framework IOKit)
 
-swiftBuild=(swift build -c release -Xcc "-DIOS_BUILD" -Xcc -target -Xcc arm64-apple-ios14.0 -Xcc -isysroot -Xcc "`xcrun --sdk iphoneos --show-sdk-path`")
+swiftBuild=(swift build -c release -Xcc "-DIOS_BUILD" -Xcc -target -Xcc arm64-apple-ios14.3 -Xcc -isysroot -Xcc "`xcrun --sdk iphoneos --show-sdk-path`")
 for arg in ${swiftcArgs[*]}
 do
     swiftBuild+=(-Xswiftc "$arg")
