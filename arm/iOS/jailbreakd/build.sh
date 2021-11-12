@@ -1,6 +1,6 @@
 set -e
 
-CODESIGN_IDENTITY="3SRQJ434Z7"
+CODESIGN_IDENTITY= "3SRQJ434Z7"
 
 swiftcArgs=(-sdk "`xcrun --sdk iphoneos --show-sdk-path`" -target arm64-apple-ios14.3 -O -framework IOKit)
 
