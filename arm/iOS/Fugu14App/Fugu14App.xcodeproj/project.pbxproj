@@ -136,6 +136,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				ACB7FF91274017EE00773293 /* PBXTargetDependency */,
 			);
 			name = Fugu14App;
 			packageProductDependencies = (
@@ -210,6 +211,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB7FF91274017EE00773293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = ACB7FF90274017EE00773293 /* ClosurePwn */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		154F77EE25EFEB7900675629 /* Debug */ = {
@@ -338,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Fugu14App/Preview Content\"";
-				DEVELOPMENT_TEAM = 2JRT39ZN42;
+				DEVELOPMENT_TEAM = XDC56S928X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fugu14App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -350,7 +358,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Fugu14App",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.linushenze.Fugu14App;
+				PRODUCT_BUNDLE_IDENTIFIER = razojb.Fugu14.ipa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = off;
@@ -368,7 +376,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Fugu14App/Preview Content\"";
-				DEVELOPMENT_TEAM = 2JRT39ZN42;
+				DEVELOPMENT_TEAM = XDC56S928X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fugu14App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -380,7 +388,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Fugu14App",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.linushenze.Fugu14App;
+				PRODUCT_BUNDLE_IDENTIFIER = razojb.Fugu14.ipa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = off;
@@ -421,6 +429,10 @@
 		154F77FC25EFFCE800675629 /* JailbreakUtils */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = JailbreakUtils;
+		};
+		ACB7FF90274017EE00773293 /* ClosurePwn */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ClosurePwn;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
